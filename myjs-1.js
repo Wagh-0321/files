@@ -9,9 +9,10 @@
 //     }
 //                           );
 
-
+function myfun()
+{
 document.getElementById('box1').innerHTML = Date();
-
+}
 
 
 
