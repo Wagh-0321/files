@@ -1,3 +1,35 @@
 <html>
-<h1>working Html MR.Aditya</h1>
+
+  <script>
+   //div
+    var div1=document.getElementById("div1");
+   //btn1
+    var btn=document.getElementById("btn1");
+    
+    btn.addEventListener("click",function(){
+                 //AJAX
+    var ourRequest=new XMLHttpRequest();
+    ourRequest.open('GET','https://wagh-0321.github.io/files/myapp-1.json');
+    ourRequest.onload=function(){
+    var ourData=JSON.parse(ourRequest.responseText);
+      //here
+      renderHTML(ourData);
+    };
+    ourRequest.send();
+      
+                 });
+    function renderHTML(data){
+      
+     div1.insertAdjacentHTML('beforeend','ok');    }
+  </script>
+  
+   <body>
+     <h1>
+  working Html MR.Aditya
+  </h1>
+  <buttton id="btn1">Click to fetch JSON</button>
+     <div id="box1"></div>
+ 
+  </body>
+  
 </html>
