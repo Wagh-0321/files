@@ -1,5 +1,5 @@
    //div
-    var div1=document.getElementById("div1");
+    var div1=document.getElementById("box1");
    //btn1
     var btn=document.getElementById("btn1");
     
