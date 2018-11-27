@@ -1,9 +1,18 @@
    //div_box
-    var div1=document.getElementById("box1");
+//     var div1=document.getElementById("box1");
    //btn1
     var btn=document.getElementById("btn1");
     
-    btn.addEventListener("click",alert("hello")
+    btn.addEventListener("click",alert("hello"));
+
+
+
+
+
+
+
+
+
 //                          function(){
 //                  //AJAX
 //     var ourRequest=new XMLHttpRequest();
@@ -16,7 +25,7 @@
 //     ourRequest.send();
       
 //                  }
-                        );
-    function renderHTML(data){
+//                         );
+//     function renderHTML(data){
       
-     div1.insertAdjacentHTML('beforeend','ok');    }
+//      div1.insertAdjacentHTML('beforeend','ok');    }
