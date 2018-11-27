@@ -1,9 +1,12 @@
    //div_box
-//     var div1=document.getElementById("box1");
+    var div1=document.getElementById("box1");
    //btn1
-    var btn=document.getElementById("btn1");
+    var btn=document.getElementById('btn1');
     
-    btn.addEventListener("click",alert("hello"));
+    btn.addEventListener("click",function(){
+            div1.innerHTML = "Hello World";
+            alert("hello");
+                          );
 
 
 
