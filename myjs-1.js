@@ -6,6 +6,7 @@
     btn.addEventListener("click",function(){
             div1.innerHTML = "Hello World";
             alert("hello");
+    }
                           );
 
 
