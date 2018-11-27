@@ -1,4 +1,4 @@
-   //div
+   //div_box
     var div1=document.getElementById("box1");
    //btn1
     var btn=document.getElementById("btn1");
