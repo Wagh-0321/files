@@ -25,7 +25,11 @@ var ourRequest=new XMLHttpRequest();
 var div1=document.getElementById('box1');
 function renderHTML(data){
       
-      div1.insertAdjacentHTML('beforeend','ok');    }
+      
+   document.getElementById('box1').innerHTML = Date();
+   div1.innerHTML="HI";
+   div1.insertAdjacentHTML('beforeend','ok');  
+}
 
 
 
